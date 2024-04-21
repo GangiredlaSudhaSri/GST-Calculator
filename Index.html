@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GST</title>
+    <link rel="stylesheet" href="GSTProject.css">
+
+</head>
+
+<body>
+    <div class="Container">
+        <div class="Navbar">
+            <div class="Logo">
+                <img src="./Images/Slogo.png" alt="Spoon Logo">
+                <div class="Heading">
+                    <h3>Silver Spoon</h3>
+                    <h2>Restaurant</h2>
+                </div>
+
+            </div>
+            <div class="Menu">
+                <p>Home</p>
+                <p>About</p>
+                <p>Menu</p>
+                <p>Contact</p>
+            </div>
+            <div class="Burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+        <div class="Details">
+            <div class="AboutDetails">
+                <h1>Person Details</h1>
+            </div>
+            <div class="Form">
+                <div class="title">
+                    <lable>Name</lable>
+                    <input id="Name" type="text" placeholder="Enter Name">
+                </div>
+                <div class="title">
+                    <lable>Phone</lable>
+                    <input id="Phone" type="text" placeholder="Enter Name">
+                </div>
+                <div class="title">
+                    <lable>Email</lable>
+                    <input id="Email" type="text" placeholder="Enter Name">
+                </div>
+                <div class="title">
+                    <lable>Place</lable>
+                    <input id="Place" type="text" placeholder="Enter Name">
+                </div>
+            </div>
+        </div>
+
+        <div class="Item">
+            <div class="ItemsDetails">
+                <h1>Menu Items</h1>
+            </div>
+            <!-- <h1>Menu Items</h1>  -->
+            <div class="Forms">
+                <div class="titles">
+                    <lable>Starters</lable>
+                    <input id="Starters" type="text" placeholder="Enter Amount">
+                </div>
+
+                <div class="titles">
+                    <lable>Biryani</lable>
+                    <input id="Biryani" type="text" placeholder="Enter Amount">
+                </div>
+
+                <div class="titles">
+                    <lable>Chicken</lable>
+                    <input id="Chicken" type="text" placeholder="Enter Amount">
+                </div>
+
+                <div class="titles">
+                    <lable>Dessarts</lable>
+                    <input id="Dessarts" type="text" placeholder="Enter Amount">
+                </div>
+
+                <div class="titles">
+                    <lable>Drinks</lable>
+                    <input id="Drinks" type="text" placeholder="Enter Amount">
+                </div>
+
+                <div class="titles">
+                    <lable>GST(%)</lable>
+                    <input id="GST" type="text" placeholder="Enter Amount">
+                </div>
+
+            </div>
+            <div class="btn">
+                <button class="Button" onclick="payment()" type="button">Make Payment</button>
+            </div>
+            <div>
+                <p id="PaymentDetails"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="GSTProject.js"></script>
+</body>
+
+</html>
